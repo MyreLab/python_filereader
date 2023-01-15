@@ -1,2 +1,7 @@
 # python_filereader
-This script automates the process of reading and writing customized file names. I wrote this to batch-rename hundreds of mortality data files received monthly on a monthly basis.
+
+Context: My team and I are responsible for the data management and analysis of hundreds of mortality data files received from the Chief Medical Examiner's Office on a monthly basis. A solution was needed to continually rename incoming files with required information, including a case identifier number unique to each mortality case.
+
+Methods: This Python script uses OS, Pandas, and PyPDF to read unique case identifiers from each file and the identifiers are stored in a data frame. The information then populates each file name, and data manipulation is done to rename each file with the respective case year and date received. The files are batch-renamed in-place.
+
+The template attached does not contain any personal identifying information.
